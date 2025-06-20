@@ -4,7 +4,7 @@ import {
 import readline from 'readline';
 import chalk from 'chalk';
 
-const apiKey = '';
+const apiKey = 'AIzaSyDPojWnfVGiVbI9yBcmsc6mZlBjlMHjZ4k';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
